@@ -1,0 +1,72 @@
+:root {
+    --primario: #dbe4e4c4;
+    --primarioOscuro: #5a67686d;
+    --secundario: #112e42;
+    --secundarioOscuro: rgb(233,187,2); /* Corregido el valor RGB */
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+    --fuenteSecundaria: "Playwrite HU"; /* Eliminada la coma sobrante */
+}
+
+/* Aplicar un modelo de caja natural a todos los elementos */
+html {
+    box-sizing: border-box;
+    font-size: 90%; 
+    background-size: 100rem;
+    background-image: url(/img/fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/** Globales **/
+ body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .titulo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    h1 {
+        align-items: center;
+    }
+    .foto img {
+        max-width: 150px;
+        border-radius: 8px;
+    }
+    body {
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    }
+    .icono {
+    width: 20px;
+    height: auto; 
+    margin-right: 21px;
+  }
+   
